@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page 2 - My Likes</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to external CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <!------Header Section------>  
+    <header>
+        <a href="#" class="logo">Devlo<span>pe</span>r..</a>
+        <ul class="navlist">
+            <li><a href="index.html">Back</a></li> <!-- Link to go back to index.html -->
+            <li><a href="#" onclick="showSection('hobbies')">Hobbies</a></li>
+            <li><a href="#" onclick="showSection('favorites')">Favorites</a></li>
+            <li><a href="#" onclick="showSection('funfacts')">Fun Facts</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!---------Likes Section on Page 2-------------->  
+    <section class="likes" id="likes">
+        <div id="hobbies" class="box hidden">
+            <img src="img/hobbies.jpg" alt="Hobbies Image">
+            <h3>Hobbies</h3>
+            <p> > Solving coding challenges and learning new algorithms<br>
+                > Listening to music, especially RNB and Pop <br>
+                > Reading books, especially fiction</p>
+        </div>
+
+        <div id="favorites" class="box hidden">
+            <img src="img/favorites.jpg" alt="Favorites Image">
+            <h3>Favorites</h3>
+            <p> > Favorite Series: Harry Potter<br>
+                > Favorite Food: Lasagna <br>
+                > Favorite Color: Purple/Lavender </p>
+        </div>
+
+        <div id="funfacts" class="box hidden">
+            <img src="img/funfacts.jpg" alt="Fun Facts Image">
+            <h3>Fun Facts</h3>
+            <p> > I want to live near the beach <br> 
+                > I have a passion for photography and enjoy capturing nature <br>
+                > I'm a fur mom </p>
+        </div>
+    </section>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
