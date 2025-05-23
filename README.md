@@ -35,11 +35,11 @@ This is a simple and responsive portfolio website built using **HTML**, **CSS**,
       ├── index.html
       └── index2.html
 
-🧑‍🎓 Author
+**🧑‍🎓 Author**
 Alayssa Hernandez – @alayssahrnndx
 
 Student Web Development 
 
-📄 License
+**📄 License**
 This project is open-source and free to use for learning and personal projects.
    
