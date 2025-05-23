@@ -21,7 +21,7 @@ This is a simple and responsive portfolio website built using **HTML**, **CSS**,
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/alayssahrnndz/portfolio-website.git
 
 2. Navigate to the project folder:
   cd responsive-portfolio-website
